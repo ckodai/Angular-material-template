@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "node_modules/chartist/dist/chartist.css",
+              "src/assets/styles/style.scss"
             ],
             "scripts": []
           },
@@ -92,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "restclient-testing"
+    }
+  },
+  "defaultProject": "restclient-testing",
+  "cli": {
+    "analytics": "7d80c70b-a9c2-4902-91d8-399230c65502"
+  }
 }
