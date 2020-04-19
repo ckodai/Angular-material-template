@@ -13,6 +13,7 @@ mat-sidenav {
   width: 240px;
   padding-top: 0px;
 }
+
 #snav{
     box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
     .mat-list-item {
@@ -76,6 +77,29 @@ mat-sidenav {
         }
     }
 }
+
+/* width */
+.mat-drawer-inner-container::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Track */
+.mat-drawer-inner-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px #26C6DA; 
+    border-radius: 10px;
+  }
+   
+/* Handle */
+.mat-drawer-inner-container::-webkit-scrollbar-thumb {
+    background: #26C6DA; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+.mat-drawer-inner-container::-webkit-scrollbar-thumb:hover {
+    background: #028698;
+}
+
 /*******************
 use profile section
 ******************/
